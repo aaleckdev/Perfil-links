@@ -25,6 +25,7 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 56px;
+    padding: 0 24px;
 }
 
 .perfil {
@@ -33,7 +34,7 @@ body {
     text-align: center;
     width: 360px;
     /* height: 712px; */
-    border: 1px solid #ff0000;
+    /* border: 1px solid #ff0000; */
     padding: 24px;
 }
 
@@ -51,14 +52,24 @@ body {
     line-height: 24px;
 }
 
-.links ul li{
+
+
+ul li{
     margin-top: 10px;
-    list-style-type: none;
+    list-style: none;
+    padding: 16px 24px;
+    background-color: rgba(255,255, 255,0.1);
+    border: 1px solid rgba(255,255,255,0.5);
+    border-radius: 8px;
+    transition: all .5s ease-in-out;
 }
 
-.links a {
+a {
     text-decoration: none;
     color: var(--font-color);
-    line-height: 15px;
 }
 
+
+ul li:hover {
+    background: rgba(255,255,255,0.5) 
+}
