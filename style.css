@@ -14,8 +14,15 @@ body {
 }
 
 .container {
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
     width: 360px;
     height: 712px;
     border: 1px solid #ff0000;
-    margin: auto;
 }
