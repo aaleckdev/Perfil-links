@@ -5,6 +5,10 @@
     font-family: 'Inter', sans-serif;
 }
 
+:root {
+    --font-color: #fff;
+}
+
 body {
     /* background-image: url(./assets/assets/bg-mobile.jpg);
     background-repeat: no-repeat;
@@ -12,6 +16,7 @@ body {
     background-size: cover; */
 
     background: url(./assets/assets/bg-mobile.jpg) no-repeat top center/cover ;
+    color: var(--font-color);
 }
 
 .container {
@@ -19,18 +24,41 @@ body {
     /* height: 100vh; */
     display: flex;
     justify-content: center;
+    margin-top: 56px;
 }
 
 .perfil {
-    display: flex;
-    justify-content: center;
+   /*  display: flex;
+    justify-content: center; */
+    text-align: center;
     width: 360px;
     /* height: 712px; */
     border: 1px solid #ff0000;
+    padding: 24px;
 }
 
 .perfil img {
     width: 112px;
     height: 112px;
     border-radius: 100px;
+    text-align: center;
+    margin-top: 10px;
 }
+
+.perfil p {
+    margin-top: 8px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.links ul li{
+    margin-top: 10px;
+    list-style-type: none;
+}
+
+.links a {
+    text-decoration: none;
+    color: var(--font-color);
+    line-height: 15px;
+}
+
