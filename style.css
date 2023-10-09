@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 
 body {
@@ -15,14 +16,21 @@ body {
 
 .container {
     width: 100vw;
-    height: 100vh;
-    border: 1px solid #000;
+    /* height: 100vh; */
     display: flex;
     justify-content: center;
 }
 
-.box {
+.perfil {
+    display: flex;
+    justify-content: center;
     width: 360px;
-    height: 712px;
+    /* height: 712px; */
     border: 1px solid #ff0000;
+}
+
+.perfil img {
+    width: 112px;
+    height: 112px;
+    border-radius: 100px;
 }
