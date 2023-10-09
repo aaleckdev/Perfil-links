@@ -12,3 +12,10 @@ body {
 
     background: url(./assets/assets/bg-mobile.jpg) no-repeat top center/cover ;
 }
+
+.container {
+    width: 360px;
+    height: 712px;
+    border: 1px solid #ff0000;
+    margin: auto;
+}
