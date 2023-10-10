@@ -7,6 +7,8 @@
 
 :root {
     --font-color: #fff;
+    --bg-color1: rgba(255,255, 255,0.1);
+    --bg-color2: rgba(255,255,255,0.5);
 }
 
 body {
@@ -58,8 +60,8 @@ ul li{
     margin-top: 10px;
     list-style: none;
     padding: 16px 24px;
-    background-color: rgba(255,255, 255,0.1);
-    border: 1px solid rgba(255,255,255,0.5);
+    background-color: var(--bg-color1);
+    border: 1px solid var(--bg-color2);
     border-radius: 8px;
     transition: all .5s ease-in-out;
 }
@@ -71,7 +73,7 @@ a {
 
 
 ul li:hover {
-    background: rgba(255,255,255,0.5) 
+    background: var(--bg-color2); 
 }
 
 .social_links {
@@ -88,7 +90,7 @@ ul li:hover {
 }
 
 .social_links  ion-icon:hover {
-    background: rgba(255, 255, 255, 0.2);
+    background: var(--bg-color1);
 }
 
 
