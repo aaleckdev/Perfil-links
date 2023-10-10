@@ -10,6 +10,10 @@
     --bg-color1: rgba(255,255, 255,0.1);
     --bg-color2: rgba(255,255,255,0.5);
 }
+/* modo claro da página */
+.light {
+
+}
 
 body {
     /* background-image: url(./assets/assets/bg-mobile.jpg);
