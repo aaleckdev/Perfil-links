@@ -73,3 +73,26 @@ a {
 ul li:hover {
     background: rgba(255,255,255,0.5) 
 }
+
+.social_links {
+    margin-top: 10px;
+}
+
+.social_links  ion-icon{
+    width: 20px;
+    height: 24px;
+    margin: 15px;
+    padding: 8px;
+    border-radius: 50%;
+    transition: all .5s ease-in-out;
+}
+
+.social_links  ion-icon:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+
+.rodape {
+    margin-top: 30px;
+    font-size: 11px;
+}
