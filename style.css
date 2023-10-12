@@ -155,6 +155,3 @@ ul li:hover {
     border-radius: 999px;
 }
 
-.switch,span,button:hover {
-    cursor: pointer;
-}
