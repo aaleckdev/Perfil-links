@@ -154,3 +154,7 @@ ul li:hover {
     /* -webkit-backdrop-filter: blur(4px); */
     border-radius: 999px;
 }
+
+.switch,span,button:hover {
+    cursor: pointer;
+}
